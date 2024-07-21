@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-COMPATABLE" IE="EDGE">
+    <link rel="stylesheet"  href="Style.css">
+    <title>Contact</title>
+</head>
+<header class="header">
+
+   <nav class="navbar">
+      <div class="brand-title"><a href="Index.html"><img class="logo" src="logo.jpg" alt=""></a></div>
+      <a href="javascript:void(0);" class="toggle-button" onclick="toggleSidebar()">&#9776;</a>
+       <div class="navbar-links">
+<ul>
+<li><a href="Index.html">Home</a></li>
+<li><a href="About.html">About</a></li>
+<li><a href="Portfolio.html">Portfolio</a></li>
+<li> <a href="FAQ.html">FAQ</a></li>
+<li><a href="Service.html">Services</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+       </div>
+  </nav>
+</header>
+<div id="sidebar" class="sidebar">
+    <div class="brand-title"><a href="Index.html"><img class="logo" src="logo.jpg" alt=""></a></div>
+
+<a href="javascript:void(0);" class="closebtn" onclick="closeSidebar()">&times;</a>
+<br><br>
+<a href="Index.html">Home</a>
+<a href="About.html">About</a>
+<a href="Portfolio.html">Portfolio</a>
+ <a href="FAQ.html">FAQ</a></li>
+<a href="Service.html">Services</a>
+<a href="contact.html">Contact</a>
+
+</div>
+</header>
+<body>
+
+    <section class="about-cover">
+        <h4>#GET IN TOUCH</h4>
+        </section> 
+
+      <section class="body-section">
+        <div class="overlay"></div>
+
+<div class="content">
+
+    <h2>We Love Hearing From You!</h2>
+<br><br><br>
+    <p class="fade-in">
+        Are you tired of dealing with clogged or leaking gutters that cause damage to your home?Look no further!Our expert guttering services offer 
+        realiable and effiecient solutions to keep your home protected.With years of experience and commitement to quality,we ensure your gutters are 
+        functioning perfectly,preventing water damage and preserving the integrity of your property.From installation to maintenance and repair,our 
+        team uses top-of-the-line materials and the latest techniques to deliver exceptional results.Trust us to keep your gutters in top condition 
+        ,so you can enjoy peace of mind and a well-maintained home.Contact us today for a free consultationand see how we can enhance the durability 
+        and appearance of your property with our superior guttering services.
+        
+        </p>
+        <br><br><br><br>
+        <img src="enquiry.jpg" class="slide-in-left" alt="Image 1"> 
+<br><br><br><br><br><br><br>
+        <h2 class="fade-in">BOOK AN APPOINTMENT!</h2>
+        <br><br><br><br><br>
+        
+        <section class="booking-section">
+            <div id="form-container" class="fade-in">
+                <h1 class="h1">BOOK TODAY!</h1>
+                <br><br>
+                <form action="mailto:tswelopelegutters@gmail.com" method="post" enctype="text/plain" id="bookingForm" onsubmit="return submitForm(event)">
+                    <label class="l" for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+        
+                    <label class="l" for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+        
+                    <label class="l" for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone" required>
+        
+                    <label class="l" for="date">Date:</label>
+                    <input type="date" id="date" name="date" required>
+        
+                    <label class="l" for="time">Time:</label>
+                    <input type="time" id="time" name="time" required>
+        
+                    <button class="submit-btn" type="submit">Book Now</button>
+                </form>
+        <br>
+                <div id="confirmation" class="hidden">
+                    <h2 class="text">Appointment Received</h2>
+                    <br>
+                    <p class="p-t">Thank you for choosing us <span id="confirmName"></span>.</p>
+                </div>
+            </div>
+        </section>
+        <br><br><br>
+        <h2>OUR WORK SPEAKS FOR US!</h2>
+        <br><br><br><br><br><br>
+        <p>
+            We are spear headed by our strong culture of professionalism and respect,regardless of the size of the project.All our clients are treated the 
+            same,and no project is too big or small,more or less important than the other.Our responsive approuch to risk-taking outside of 
+            the established construction standards and capability to persue opportunities and risk-taking across South Africa,make us stand out 
+            of the crowd.
+            </p>
+<br><br><br><br><br>
+
+<img src="P30.jpg" class="slide-in-left" alt="Image 1">
+
+<br><br><br>
+
+<img src="g18.jpg" class="slide-in-left" alt="Image 1">
+
+<br><br><br>
+
+<img src="g15.jpg" class="slide-in-left" alt="Image 1">
+
+<br><br><br>
+
+<img src="g12.jpg" class="slide-in-left" alt="Image 1">
+
+
+
+<br><br><br><br><br><br>
+    <section id="robot-section" class="fade-in">
+    
+        <div class="robot">
+            <div class="head">
+                <div class="eye left"></div>
+    <div class="eye right"></div>
+    <div class="mouth"></div>
+    
+            </div> 
+    </section>
+    <br>
+    <section class="text-section">
+        <h1 class="fade-in">OUR COMPANY VALUES!</h1>
+    <br><br><br><br>
+        <div class="fade-text">
+                      <h2 class="fade-in" id="changing-text"></h2>
+    </div>
+    </section>
+    <br>
+    <section class="letter">
+        <div class="news-letter">
+            <h2 class="fade-in" id="News">Sign Up For Our News Letter!</h2>
+            <br><br>
+            <form  action="" method="post" enctype="text/plain">
+                        <label class="label" for="email" > Email:</label>
+                        <input class="input" type="email" name="email" id="email" placeholder="Email">
+                        <br>
+                        <button type="Submit" class="submit-btn">Subscribe</button>
+            </form>
+        </div>
+        </section>
+        <br><br>
+        <h2 class="fade-in">Get In Touch With Us!</h2>
+        <br><br>
+        <br><br><br><br><br>
+<h1>OUR STRUCTURE</h1>
+<p class="fade-in" id="green-p">GET TO KNOW OUR LEADERSHIP BOARD</p>
+<br><br><br>
+<h2>BOARD OF DIRECTORS</h2>
+<br><br><br>
+<img src="dolly.jpg" class="slide-in-left1" alt="Image 2">
+
+<p id="green-p1" class="fade-in"><b>MRS DOLENCE MODIBA</b></p>
+<br><br><br>
+<img src="joseph.jpg" class="slide-in-left1" alt="Image 2">
+
+<p id="green-p1" class="fade-in"><b>MR JOSEPH MODIBA</b></p>
+
+<br><br><br>
+        <button class="call-btn" onClick="window.location.href='https://wa.me/+27722706563?text=*Dear Customer , Please leave a message and we will get back to you shortly.*'" >Message Us</button>    
+            
+    <br>
+    <br>
+<div style="width: 100%">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3584.8403660396493!2d28.229139875409547!3d-26.03877867717888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDAyJzE5LjYiUyAyOMKwMTMnNTQuMiJF!5e0!3m2!1sen!2s!4v1721554473182!5m2!1sen!2s"  style="border:0;width: 80%;height: 500px;border-radius: 20px;margin-top: 30px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div>
+    
+    </section>
+    
+
+
+
+</div>
+<footer>
+
+        
+    <a href="Index.html"><img class="logo1" src="LOGO.jpg" alt=""></a>
+              
+
+<div class="links">
+
+              <div class="links">
+                <p class="text-p">Links</p>
+
+                <a class="a" href="Index.html">Home</a>
+                <a class="a" href="About.html">About</a>
+                <a class="a" href="Portfolio.html">Portfolio</a>
+                <a class="a" href="FAQ.html">FAQ</a>
+                <a class="a" href="Service.html">Services</a>
+                <a class="a" href="contact.html">Contact</a>
+              </div>
+    
+
+</div>
+<div class="find-us">
+    <p class="text-p">Find Us At</p>
+    <p class="p">2111 Kempton South Africa</p>
+    <p class="p"> Tel: 071 560 1734</p>
+    <p class="p">Email: tswelopelegutters@gmail.com</p>
+</div>
+<br>
+
+<div class="find-us">
+    <p class="text-p">Working Hours</p>
+    <p class="p">Mon-Fri 7h00am-17h00pm</p>
+    <p class="p">Sat 7h00am-14h30pm</p>
+</div>
+
+
+<p class="text-f">&copy;Tswelopele Guttering 2024</p>
+</footer>
+
+
+
+
+</section>
+
+
+
+    <script src="Main.js"></script>
+</body>
+</html>
