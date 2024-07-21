@@ -393,6 +393,14 @@ a.toggle-button {
                 background: url('bg.png') no-repeat center center/cover;
                 height: 400px;
             }
+            .cover-photo h4{
+                color: white;
+                font-weight: 600;
+                display: block;
+            }
+            .cover-photo h4 span{
+                color: #639a16;
+            }
 
 
             .cover-photo::after {
