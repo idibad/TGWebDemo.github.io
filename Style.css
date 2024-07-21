@@ -396,7 +396,7 @@ a.toggle-button {
             .cover-photo h4{
                 color: white;
                 font-weight: 600;
-                display: block;
+                display: inlince;
             }
             .cover-photo h4 span{
                 color: #639a16;
