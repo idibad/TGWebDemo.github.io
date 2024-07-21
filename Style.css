@@ -393,15 +393,6 @@ a.toggle-button {
                 background: url('bg.png') no-repeat center center/cover;
                 height: 400px;
             }
-            .cover-photo h3{
-                color: white;
-                font-weight: 600;
-                display: inlince;
-            }
-            .cover-photo h3 span{
-                color: #639a16;
-            }
-
 
             .cover-photo::after {
                 font-size: 1.5em; /* Further reduce font size for very small screens */
