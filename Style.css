@@ -393,12 +393,12 @@ a.toggle-button {
                 background: url('bg.png') no-repeat center center/cover;
                 height: 400px;
             }
-            .cover-photo h4{
+            .cover-photo h3{
                 color: white;
                 font-weight: 600;
                 display: inlince;
             }
-            .cover-photo h4 span{
+            .cover-photo h3 span{
                 color: #639a16;
             }
 
