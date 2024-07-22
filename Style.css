@@ -400,8 +400,10 @@ a.toggle-button {
             }
 
             .learn-more{
-                margin-bottom: -30px;
-                margin-left: 5px;
+               position: absolute;
+                padding: 0 0 0 0  ;
+                left: 5px;
+                bottom: 0px;
             }
             
         }     
