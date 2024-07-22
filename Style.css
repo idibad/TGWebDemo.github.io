@@ -360,7 +360,8 @@ a.toggle-button {
             cursor: pointer;
             border-radius: 8px;
             margin-left: 5px;
-            margin-bottom: -20;
+            
+            margin-bottom: -20px;
         
         }
         .learn-more:hover{
