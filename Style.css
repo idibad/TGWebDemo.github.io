@@ -400,9 +400,9 @@ a.toggle-button {
             }
 
             .learn-more{
-               margin-bottom: -50px;
+               margin-bottom: 5px;
                 margin-left: 5px;
-               padding: 0 0 0 0; 
+               padding: 10px; 
             }
             
         }     
