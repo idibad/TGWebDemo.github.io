@@ -344,20 +344,37 @@ a.toggle-button {
         
         @media (max-width: 480px) {
             .cover-photo{
+                .cover-photo {
                 background: url('bg.png') no-repeat center center/cover;
+                height: 400px;
             }
-            
+            }
             .cover-photo::after {
                 font-size: 1.5em; /* Further reduce font size for very small screens */
             }
+        
         }
         .learn-more{
-            position: absolute ;    
-            left: 5px;
-            bottom: 0px;
-            
+            background-color: rgb(48, 219, 48);
+            border: none;
+            color: #fff;
+            text-align: center;
+            padding: 15px 30px;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 12px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        
         }
-       olor: white;
+        .learn-more:hover{
+            background-color: green;
+        }
+        
+        .learn-more a {
+            text-decoration: none;
+            cursor: pointer;
+            color: white;
         }   
         .button{
             margin-right: 75%;
@@ -379,16 +396,17 @@ a.toggle-button {
         }
         
         @media (max-width: 480px) {
-            .cover-photo {
-                background: url('bg.png') no-repeat center center/cover;
-                height: 400px;
-            }
-
-
             .cover-photo::after {
                 font-size: 1.5em; /* Further reduce font size for very small screens */
             }
+
+            .learn-more{
+                margin-bottom: 0px;
+                margin-left: 5px;
+            }
+            
         }     
+
 
 
 
@@ -874,4 +892,5 @@ h2.sub-text{
         height: 80%;/* Set a fixed height for mobile */
     }
 }
+
 
