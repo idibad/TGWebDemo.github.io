@@ -352,7 +352,7 @@ a.toggle-button {
             }
         }
         .learn-more{
-            background-color: #000000;
+            background-color: #000000 !important;
             border: none;
             color: #fff;
             text-align: center;
