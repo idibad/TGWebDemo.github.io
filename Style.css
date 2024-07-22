@@ -343,8 +343,7 @@ a.toggle-button {
         }
         
         @media (max-width: 480px) {
-            
-                .cover-photo {
+            .cover-photo {
                 background: url('bg.png') no-repeat center center/cover;
                 height: 400px;
             
