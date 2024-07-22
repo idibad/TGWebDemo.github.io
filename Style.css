@@ -352,26 +352,12 @@ a.toggle-button {
             }
         }
         .learn-more{
-            background-color: #000000 !important;
-            border: none;
-            color: #fff;
-            text-align: center;
-            text-decoration: none;
-            cursor: pointer;
-            border-radius: 8px;
-            margin-left: 5px;
-            margin-top: 30px;
-            margin-bottom: -20px;
-        
+            position: absolute ;    
+            left: 5px;
+            bottom: 0px;
+            
         }
-        .learn-more:hover{
-            background-color: green;
-        }
-        
-        .learn-more a {
-            text-decoration: none;
-            cursor: pointer;
-            color: white;
+       olor: white;
         }   
         .button{
             margin-right: 75%;
