@@ -356,12 +356,11 @@ a.toggle-button {
             border: none;
             color: #fff;
             text-align: center;
-            padding: 15px 30px;
             text-decoration: none;
             cursor: pointer;
-            border-radius: 12px;
+            border-radius: 8px;
             margin-left: 5px;
-            margin-bottom: ;
+            margin-bottom: -20;
         
         }
         .learn-more:hover{
