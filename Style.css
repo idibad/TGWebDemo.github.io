@@ -345,7 +345,7 @@ a.toggle-button {
         @media (max-width: 480px) {
             .cover-photo {
                 background: url('front\ pic.jpg')  no-repeat center center/cover;
-                height: 250px;
+                height: 180px;
             
             }
             .cover-photo::after {
@@ -400,7 +400,7 @@ a.toggle-button {
             }
 
             .learn-more{
-               margin-top: 100px;
+               margin-top: 80px;
                padding: 10px; 
             }
             
